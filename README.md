@@ -1,18 +1,11 @@
-# City Population Array
+# City Population Brain Teaser
 
-A script to return an object containing continent names as keys and totalmpopulation of any children as a value.
-The tree structure could change in the future
+Return an object containing continent names as keys (you can assume continents are always top level), and total population of any children as a value.
+Assume that the structure above could change in the future
 
-### Prerequisites
+### Setup
 
-Can be run on any LAMP / WAMP installation
+Download files and run from your favourite local server
 
-
-## Authors
-
-* **Vincent Nel**
-
-
-## License
-
-This project is licensed under the MIT License
+## Author:
+***Vincent Nel**

@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cities</title>
+    <script src="cities.js"></script>
+    <script>
+      let cityTree = new TreeOfCities();
+      let populations = cityTree.getPopulationByContinent();
+      console.log(populations);
+    </script>
+    <style>
+      body {
+        font-family: "Segoe UI", "Helvetica", "sans-serif";
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Population by continent</h1>
+    <section class="population-results"></section>
+
+    <script>
+      for (var continent in populations) {
+        document.getElementsByClassName("population-results")[0].innerHTML +=
+          "<p>" +
+          continent +
+          " population is: " +
+          populations[continent] +
+          "</p>";
+      }
+    </script>
+  </body>
+</html>
